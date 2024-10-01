@@ -1,0 +1,12 @@
+name: 'Hello World Action'
+description: 'An action that prints Hello, World!'
+inputs:
+  username:
+    description: 'Your name'
+    required: true
+outputs:
+  result:
+    description: 'The result of the action'
+runs:
+  using: 'node12'
+  main: 'index.js'
